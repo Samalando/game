@@ -8,8 +8,9 @@ using TMPro;
 
 public class PlayerInfo : MonoBehaviour
 {
+    public static event Action onGateMoved;
     public float healthPoints;
-    public float itemExample;
+    public float key1final;
     public float lavaDamageMultiplier;
     public Vector3 targetPosition;
     public float glideSpeed;
@@ -44,26 +45,26 @@ public class PlayerInfo : MonoBehaviour
 
 
         }
-        if (other.gameObject.tag == "item")
+        if (other.gameObject.tag == "key_1-final")
         {
-            itemExample = itemExample + 1;
+            key1final = key1final + 1;
 
             other.gameObject.SetActive(false);
 
-            print(itemExample);
+            print(key1final);
 
 
 
         }
-        if (itemExample >= 1)
+        if (key1final >= 1)
         {
-            if (other.gameObject.tag == "gate")
+            if (other.gameObject.tag == "gate_1-final")
             {
-                itemExample = itemExample - 1;
+                key1final = key1final - 1;
 
                 moving = true;
                 
-                print(itemExample);
+                print(key1final);
 
                 float distanceToPlayer = Vector3.Distance(character.transform.position, transform.position);
                 print(distanceToPlayer);
@@ -107,6 +108,13 @@ public class PlayerInfo : MonoBehaviour
 
     private void GlideToPos()
     {
-        gate.transform.position = Vector3.MoveTowards(transform.position, targetPosition, glideSpeed * Time.deltaTime);
+        gate.transform.position = Vector3.MoveTowards(gate.transform.position, targetPosition, glideSpeed * Time.deltaTime);
+        if (Vector3.Distance(gate.transform.position, targetPosition) < 0.01f)
+        {
+            moving = false;
+            print("Gate has reached its destination");
+            onGateMoved?.Invoke();
+        }
+
     }
 }

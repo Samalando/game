@@ -12,6 +12,9 @@ TagManager:
   - lava
   - gate
   - money
+  - key_1-final
+  - gate_1-final
+  - blademaster
   layers:
   - Default
   - TransparentFX
