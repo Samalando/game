@@ -10,7 +10,7 @@ public class PlayerInfo : MonoBehaviour
 {
     public static event Action onGateMoved;
     public float healthPoints;
-    public float key1final;
+    public float key1Final;
     public float lavaDamageMultiplier;
     public Vector3 targetPosition;
     public float glideSpeed;
@@ -20,14 +20,25 @@ public class PlayerInfo : MonoBehaviour
     public float money;
     public bool moving;
     public GameObject character;
+    public GameObject gameOverScreen;
+    public GameObject npc;
+    private bool npcVisable = true;
 
     private void Update()
     {
-        healthAmount.text = "hp: " + healthPoints;
+        healthAmount.text = "hp: " + Mathf.RoundToInt(healthPoints);
         moneyAmount.text = "coins: " + money;
         if (moving == true)
         {
             GlideToPos();
+        }
+        if (healthPoints <= 0)
+        {
+            gameOverScreen.SetActive(true);
+        }
+        if (npcVisable == false)
+        {
+            npc.SetActive(false);
         }
 
     }
@@ -47,25 +58,28 @@ public class PlayerInfo : MonoBehaviour
         }
         if (other.gameObject.tag == "key_1-final")
         {
-            key1final = key1final + 1;
+            key1Final = key1Final + 1;
 
             other.gameObject.SetActive(false);
+            
 
-            print(key1final);
+            print(key1Final);
 
 
 
         }
-        if (key1final >= 1)
+        if (key1Final >= 1)
         {
+            npcVisable = false;
             if (other.gameObject.tag == "gate_1-final")
             {
-                key1final = key1final - 1;
+                key1Final = key1Final - 1;
 
                 moving = true;
-                
-                print(key1final);
 
+                print(key1Final);
+                
+                npcVisable = false;
                 float distanceToPlayer = Vector3.Distance(character.transform.position, transform.position);
                 print(distanceToPlayer);
             }
@@ -76,7 +90,7 @@ public class PlayerInfo : MonoBehaviour
             money = money + 1;
             other.gameObject.SetActive(false);
         }
-       
+
     }
     private void OnTriggerStay(Collider other)
     {
@@ -87,7 +101,7 @@ public class PlayerInfo : MonoBehaviour
             if (other.gameObject.tag == "healingZone")
             {
                 healthPoints = healthPoints + 10 * Time.deltaTime;
-                //Mathf.RoundToInt(healthPoints);
+                
 
             }
         }
@@ -103,7 +117,7 @@ public class PlayerInfo : MonoBehaviour
                 }
             }
         }
-        print(healthPoints);  
+        print(healthPoints);
     }
 
     private void GlideToPos()
@@ -117,4 +131,5 @@ public class PlayerInfo : MonoBehaviour
         }
 
     }
+    
 }

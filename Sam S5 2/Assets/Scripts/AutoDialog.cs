@@ -16,6 +16,8 @@ public class AutoDialog : MonoBehaviour
     private bool isDialogueActive = false;
     public float Countdown = 1f;
     private float countdownTimer;
+    public TMP_Text textBox;
+    public GameObject uiText;
    
 
     private void OnEnable()
@@ -36,6 +38,7 @@ public class AutoDialog : MonoBehaviour
     }
     void Update()
     {
+        Countdown = countdownTimer;
         if (IsPlayerInRange && !isDialogueActive)
         {
             StartDialogue();
@@ -63,17 +66,18 @@ public class AutoDialog : MonoBehaviour
         
         dialogueIndex = 0;
         isDialogueActive = true;
-        dialoguePanel.SetActive(true);
+        uiText.SetActive(true);
+        
         DisplayNextSentence();
     }
 
     void DisplayNextSentence()
     {
-        
-        Countdown = countdownTimer;
+
+        print(".");
         if (dialogueIndex < dialogues.Length)
         {
-            dialogueText.text = dialogues[dialogueIndex];
+            textBox.text = dialogues[dialogueIndex];
             dialogueIndex++;
         }
         else
@@ -88,6 +92,8 @@ public class AutoDialog : MonoBehaviour
         isDialogueActive = false;
         dialoguePanel.SetActive(false);
         IsPlayerInRange = false;
+        uiText.SetActive(false);
+        
         doneTalking?.Invoke();
     }
 
@@ -103,6 +109,7 @@ public class AutoDialog : MonoBehaviour
     void GateIsOpened()
     {
         IsPlayerInRange = true;
+        
     }
 
 }
