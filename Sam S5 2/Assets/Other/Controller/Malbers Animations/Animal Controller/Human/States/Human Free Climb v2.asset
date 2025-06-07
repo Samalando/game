@@ -24,6 +24,7 @@ MonoBehaviour:
     Variable: {fileID: 0}
   Priority: 11
   ResetInputOnFailed: 1
+  ResetLastState: 0
   General:
     modify: 4095
     RootMotion: 1
@@ -151,7 +152,7 @@ MonoBehaviour:
   IdleStrafe: 1
   debug: 1
   Editor_Tabs1: 3
-  ID: {fileID: 11400000, guid: 975403cc10f8cec46a3caa6ed4e3d6c5, type: 2}
+  ID: {fileID: 0}
   ClimbLayer:
     UseConstant: 1
     ConstantValue:

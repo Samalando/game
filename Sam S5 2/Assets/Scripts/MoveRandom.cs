@@ -44,8 +44,8 @@ public class MoveRandom : MonoBehaviour
     }
     void PosRandom()
     {
-        float ranX = Random.Range(areaCenter.x - areaSize.x / 2, areaCenter.x + areaSize.x / 2);
-        float ranZ = Random.Range(areaCenter.z - areaSize.z / 2, areaCenter.z + areaSize.z / 2);
+        float ranX = Random.Range(areaCenter.x - areaSize.x , areaCenter.x + areaSize.x );
+        float ranZ = Random.Range(areaCenter.z - areaSize.z , areaCenter.z + areaSize.z );
         targetPosition = new Vector3(ranX, transform.position.y, ranZ);
     }
 }

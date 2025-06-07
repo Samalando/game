@@ -27,6 +27,7 @@ public class MoveRotateSpeedUp : MonoBehaviour
     public float maxSpeed = 100f;
     private bool slowDown = false;
     private bool rotationEnabled = false;
+    private bool rotationInvoked = true;
     
     // This method runs when the script starts.
     private void OnEnable()
@@ -56,7 +57,7 @@ public class MoveRotateSpeedUp : MonoBehaviour
         // Handles the movement of the object.
         HandleMovement();
         ManageSpeed();
-        print(rotationSpeed);
+       
         
         
 
@@ -125,8 +126,9 @@ public class MoveRotateSpeedUp : MonoBehaviour
             
         }
 
-        if ( rotationSpeed == 0)
+        if ( rotationSpeed == 0 && rotationInvoked == true)
         {
+            rotationInvoked = false;
             FinishedSpinning?.Invoke();
         }
         

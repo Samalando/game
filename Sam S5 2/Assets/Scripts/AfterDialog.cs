@@ -1,33 +1,36 @@
 using System;
+using MalbersAnimations;
 using UnityEngine;
 using TMPro;
 
 
 public class AfterDialog : MonoBehaviour
 {
-    public static event Action doneTalking;
+    
     public string[] dialogues;
     public TMP_Text dialogueText;
     public GameObject dialoguePanel;
     private Animator npcAnim;
-
+    public static event Action bossOver;
     private int dialogueIndex = 0;
     private bool IsPlayerInRange = false;
     private bool isDialogueActive = false;
     public float Countdown = 1f;
     private float countdownTimer;
+    public TMP_Text textBox;
+    public GameObject uiText;
+    private bool InvokeEnable = false;
+    
    
 
     private void OnEnable()
     {
-        MoveRotateSpeedUp.FinishedSpinning += StartDialogue;
-        MoveRotateSpeedUp.FinishedSpinning += SpinningIsFinished;
+        MoveRotateSpeedUp.FinishedSpinning += FinishedTalking;
     }
 
     private void OnDisable()
     {
-        MoveRotateSpeedUp.FinishedSpinning -= StartDialogue;
-        MoveRotateSpeedUp.FinishedSpinning -= SpinningIsFinished;
+        MoveRotateSpeedUp.FinishedSpinning -= FinishedTalking;
     }
     void Start()
     {
@@ -36,6 +39,8 @@ public class AfterDialog : MonoBehaviour
     }
     void Update()
     {
+
+       
         if (IsPlayerInRange && !isDialogueActive)
         {
             StartDialogue();
@@ -43,8 +48,13 @@ public class AfterDialog : MonoBehaviour
         else if (isDialogueActive && Countdown <= 0)
         {
             DisplayNextSentence();
+            Countdown = countdownTimer;
         }
         Timer();
+        if (InvokeEnable == true)
+        {
+            bossOver?.Invoke();
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -60,20 +70,20 @@ public class AfterDialog : MonoBehaviour
 
     void StartDialogue()
     {
-        
+        Countdown= countdownTimer;
         dialogueIndex = 0;
         isDialogueActive = true;
-        dialoguePanel.SetActive(true);
+        uiText.SetActive(true);
+        
         DisplayNextSentence();
     }
 
     void DisplayNextSentence()
     {
         
-        Countdown = countdownTimer;
         if (dialogueIndex < dialogues.Length)
         {
-            dialogueText.text = dialogues[dialogueIndex];
+            textBox.text = dialogues[dialogueIndex];
             dialogueIndex++;
         }
         else
@@ -88,7 +98,10 @@ public class AfterDialog : MonoBehaviour
         isDialogueActive = false;
         dialoguePanel.SetActive(false);
         IsPlayerInRange = false;
-        doneTalking?.Invoke();
+        uiText.SetActive(false);
+        InvokeEnable = true;
+        
+      
     }
 
     void Timer()
@@ -100,9 +113,10 @@ public class AfterDialog : MonoBehaviour
         }
     }
 
-    void SpinningIsFinished()
+    void FinishedTalking()
     {
         IsPlayerInRange = true;
+        
     }
 
 }

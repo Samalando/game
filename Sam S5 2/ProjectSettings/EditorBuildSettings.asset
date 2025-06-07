@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Sam S3.unity
+    guid: d2dc0d747154e4f5f8396236031ae4a1
   m_configObjects: {}

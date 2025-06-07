@@ -15,6 +15,11 @@ TagManager:
   - key_1-final
   - gate_1-final
   - blademaster
+  - gate_1-f2
+  - key_1-f2
+  - key_2-sect
+  - end
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -24,7 +29,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - BounchingObjects
   - 
   - 
   - 

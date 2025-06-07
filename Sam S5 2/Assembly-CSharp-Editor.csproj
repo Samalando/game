@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{190206cc-ff5a-2541-bc53-6de503bc415b}</ProjectGuid>
+    <ProjectGuid>{1b219c6c-7302-6901-5394-e335812d3392}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp-Editor\</OutputPath>
-    <DefineConstants>UNITY_2022_3_44;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <DefineConstants>UNITY_2022_3_44;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets/Other/Controller/Malbers Animations/Common/Scripts/Editor/Animal/AbilityDrawer.cs" />
     <Compile Include="Assets/Other/Controller/Malbers Animations/Common/Scripts/Editor/Animal/JumpProfileDrawer.cs" />
+    <Compile Include="Assets/Other/Scripts/Editor/AutoSaveEditor.cs" />
     <Compile Include="Assets/Other/Controller/Malbers Animations/Common/Scripts/Editor/Animal/ZoneEditor.cs" />
     <Compile Include="Assets/Other/Controller/Malbers Animations/Common/Scripts/Editor/Utilities/TransformAnimationEditor.cs" />
     <Compile Include="Assets/Other/Controller/Malbers Animations/Common/Scripts/Editor/Input/MInputEditor.cs" />
@@ -268,6 +269,9 @@
     <Reference Include="UnityEngine.VirtualTexturingModule">
       <HintPath>/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
@@ -325,38 +329,47 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>/Users/sam/Applications/2022.3.44f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/unityplastic.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/log4netPlastic.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -737,93 +750,101 @@
       <HintPath>/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>/Users/sam/Downloads/Sam S5/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>/Users/sam/Downloads/Sam S5 2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{0aa10955-785e-1d06-9270-445da8684627}</Project>
+      <Project>{2669cc1f-ed4d-2e4b-6dde-53c21c2f38a1}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{38caa358-7f73-148b-945e-6005095e3fe9}</Project>
+      <Project>{068d3445-cd73-a14e-b246-9c630e8e0116}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
+    <ProjectReference Include="SimpleInput.Editor.csproj">
+      <Project>{f8b3e88f-b84c-940c-4ac1-3c4858897d7a}</Project>
+      <Name>SimpleInput.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
-      <Project>{a9600340-e329-ad32-3134-76fdcb944f88}</Project>
+      <Project>{167481e4-bbaa-6f1e-36d2-69462f4fb186}</Project>
       <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleInput.Runtime.csproj">
+      <Project>{147acdd5-97f2-23cc-f7d8-2e7eaa670bd3}</Project>
+      <Name>SimpleInput.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

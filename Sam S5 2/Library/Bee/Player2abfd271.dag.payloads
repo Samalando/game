@@ -1,0 +1,667 @@
+Payload for "WriteText Library/Bee/artifacts/csharpactions/boot.config_7kyv.info"
+
+{"System.Object":null,"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.PlayerBuildProgramBase","methodName":"WriteBootConfigAction","assemblyLocation":"/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/WebGL/boot.config"],"inputs":["Library/PlayerDataCache/WebGL/Data/boot.config","Library/PlayerDataCache/WebGL/Data/boot.config","Library/PlayerDataCache/WebGL/Data/data.unity3d","Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json","Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json","Library/PlayerDataCache/WebGL/Data/sharedassets0.resource","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AIModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AccessibilityModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AndroidJNIModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CrashReportingModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.DSPGraphModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.DirectorModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.GIModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.GameCenterModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.GridModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.HotReloadModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.IMGUIModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ImageConversionModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.InputLegacyModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.InputModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.JSONSerializeModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.LocalizationModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ParticleSystemModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.PerformanceReportingModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.Physics2DModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.PhysicsModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ProfilerModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.PropertiesModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ScreenCaptureModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SharedInternalsModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SpriteMaskModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SpriteShapeModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.StreamingModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SubstanceModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SubsystemsModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TLSModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TerrainModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TerrainPhysicsModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TextCoreFontEngineModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TextCoreTextEngineModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TextRenderingModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TilemapModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UIElementsModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UIModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UmbraModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityAnalyticsCommonModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityAnalyticsModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityConnectModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityCurlModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityTestProtocolModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VFXModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VRModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VehiclesModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VideoModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll","/Users/sam/Downloads/Sam S5 2/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll","/Users/sam/Downloads/Sam S5 2/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Accessibility.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/Microsoft.Win32.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/Microsoft.Win32.Registry.AccessControl.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/Microsoft.Win32.Registry.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.AppContext.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Buffers.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.Concurrent.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.NonGeneric.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.Specialized.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.Annotations.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.EventBasedAsync.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.TypeConverter.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Console.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Data.Common.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Data.SqlClient.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Contracts.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Debug.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.FileVersionInfo.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Process.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.StackTrace.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.TextWriterTraceListener.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Tools.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.TraceEvent.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.TraceSource.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Tracing.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Drawing.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Dynamic.Runtime.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Globalization.Calendars.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Globalization.Extensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Globalization.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.Compression.ZipFile.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.AccessControl.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.DriveInfo.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.Watcher.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.IsolatedStorage.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.MemoryMappedFiles.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.Pipes.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.UnmanagedMemoryStream.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.Expressions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.Parallel.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.Queryable.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Memory.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.AuthenticationManager.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Cache.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.HttpListener.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Mail.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.NameResolution.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.NetworkInformation.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Ping.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Requests.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Security.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.ServicePoint.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Sockets.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Utilities.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.WebHeaderCollection.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.WebSockets.Client.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.WebSockets.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ObjectModel.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.DispatchProxy.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Emit.ILGeneration.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Emit.Lightweight.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Emit.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Extensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.TypeExtensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.Reader.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.ReaderWriter.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.ResourceManager.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.Writer.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.CompilerServices.VisualC.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Extensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Handles.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.InteropServices.RuntimeInformation.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.InteropServices.WindowsRuntime.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.InteropServices.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Loader.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Numerics.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Formatters.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Json.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Xml.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.AccessControl.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Claims.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Algorithms.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Cng.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Csp.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.DeriveBytes.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encoding.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.Aes.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.ECDsa.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Hashing.Algorithms.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Hashing.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.OpenSsl.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Pkcs.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.ProtectedData.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.RSA.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.RandomNumberGenerator.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.X509Certificates.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Principal.Windows.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Principal.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.SecureString.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Duplex.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Http.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.NetTcp.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Security.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceProcess.ServiceController.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.Encoding.CodePages.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.Encoding.Extensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.Encoding.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.RegularExpressions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.AccessControl.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Overlapped.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Tasks.Extensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Tasks.Parallel.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Tasks.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Thread.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.ThreadPool.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Timer.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ValueTuple.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.ReaderWriter.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XDocument.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XPath.XDocument.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XPath.XmlDocument.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XPath.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XmlDocument.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XmlSerializer.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.Xsl.Primitives.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/netstandard.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Microsoft.CSharp.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Mono.Data.Sqlite.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Mono.Data.Tds.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Mono.Security.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ComponentModel.Composition.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ComponentModel.DataAnnotations.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Configuration.Install.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Configuration.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Core.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.DataSetExtensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Entity.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Linq.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.OracleClient.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Services.Client.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Services.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Design.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.DirectoryServices.Protocols.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.DirectoryServices.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Drawing.Design.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Drawing.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.EnterpriseServices.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IO.Compression.FileSystem.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IO.Compression.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IdentityModel.Selectors.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IdentityModel.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Json.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Management.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Messaging.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Net.Http.WebRequest.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Net.Http.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Net.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Numerics.Vectors.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Numerics.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Reflection.Context.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Caching.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.DurableInstancing.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Remoting.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Serialization.Formatters.Soap.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Serialization.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Security.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Activation.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Discovery.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Internals.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Routing.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Web.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceProcess.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Transactions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.ApplicationServices.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.DynamicData.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.Extensions.Design.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.Extensions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.RegularExpressions.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.Services.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Windows.Forms.DataVisualization.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Windows.Forms.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Windows.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xaml.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xml.Linq.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xml.Serialization.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xml.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.dll","/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/mscorlib.dll","Library/Bee/Player2abfd271-inputdata.json"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_crek.info"
+
+{"PlayerBuildProgramLibrary.ClassRegistrationGenerator+Arguments":{"linkerOutput":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityLinkerToEditorData.json","editorOutput":"/Users/sam/Downloads/Sam S5 2/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json","moduleAssetsPath":"/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/modules.asset","outputClassRegistration":"/Users/sam/Downloads/Sam S5 2/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp","enableStripping":true},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.ClassRegistrationGenerator","methodName":"Run","assemblyLocation":"/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["/Users/sam/Downloads/Sam S5 2/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp"],"inputs":["Library/Bee/artifacts/WebGL/ManagedStripped/UnityLinkerToEditorData.json","/Users/sam/Downloads/Sam S5 2/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/modules.asset"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/WebGL/bdwgc/release_WebGL_wasm/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "WriteText Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/jjhntkknit4r0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/UnityAdsStubs.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/char-conversions.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-api.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-benchmark-support.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-mono-api.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-runtime-stats.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ri295yqmlo030.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/codegen/il2cpp-codegen-common.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/codegen/il2cpp-codegen-il2cpp.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/codegen/il2cpp-codegen-tiny.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wch1650p978e0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/gc/BoehmGC.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/gc/GCHandle.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/gc/GarbageCollector.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/gc/NullGC.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/gc/WriteBarrier.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/gc/WriteBarrierValidation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/6hr75bywhhb30.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/Runtime.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/RuntimeClassHandle.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/RuntimeGPtrArrayHandle.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/RuntimeMarshal.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/SafeStringMarshal.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/sfnskvv7863m0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Diagnostics/Debugger.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Diagnostics/StackFrame.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Diagnostics/StackTrace.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/9cho8z4j7s0b0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CalendarData.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CompareInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CultureData.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CultureInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/RegionInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/q9d3kx5m16q30.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.IO/BrokeredFileSystem.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.IO/DriveInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.IO/MonoIO.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.IO/Path.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/zc8shd0sxo9q0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/Assembly.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/CustomAttributeData.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/EventInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/ParameterInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeMethodInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/zc8shd0sxo9q1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/AssemblyName.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/FieldInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/Module.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/MonoMethodInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeAssembly.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeEventInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeModule.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeParameterInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/zc8shd0sxo9q2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/MethodBase.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/MonoMethod.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeConstructorInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeFieldInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimePropertyInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/5a6983m9bx3o0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/GCHandle.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/Marshal.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/RuntimeInformation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/30a1zm1n0d5x0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.Remoting.Messaging/AsyncResult.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.Remoting.Messaging/MonoMethodMessage.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/k9kirnzc1ijc0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Security.Principal/WindowsIdentity.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Security.Principal/WindowsImpersonationContext.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Security.Principal/WindowsPrincipal.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/x9ii48ryjhuw0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Text/EncodingHelper.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Text/Normalization.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ozszmec6bv9u0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/InternalThread.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Monitor.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Mutex.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/NativeEventCalls.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/OSSpecificSynchronizationContext.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Thread.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Timer.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/WaitHandle.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/mx14mjjg2lyy0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/ArgIterator.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeFieldHandle.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Type.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/mx14mjjg2lyy1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/AppDomain.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Array.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/CurrentSystemTimeZone.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/DateTime.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/NumberFormatter.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Object.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeMethodHandle.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/mx14mjjg2lyy2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Buffer.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/GC.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/MonoCustomAttrs.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeType.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeTypeHandle.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/mx14mjjg2lyy3.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/CLRConfig.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/ConsoleDriver.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Delegate.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Enum.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Environment.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Exception.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Number.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/String.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/TypedReference.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/ValueType.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/in1bt3rtmqhu0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/DefaultTraceListener.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/FileVersionInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/Process.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/Stopwatch.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/peag96z95hat0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Net.NetworkInformation/LinuxNetworkInterface.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Net.NetworkInformation/MacOsIPInterfaceProperties.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hoq1w9eomis90.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Net.Sockets/Socket.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Net.Sockets/SocketException.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/76gr837ti0qe0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/CustomAttributeCreator.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/CustomAttributeDataReader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/FieldLayout.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/GenericMetadata.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/GenericSharing.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericContextCompare.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericMethodHash.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppSignature.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/76gr837ti0qe1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/ArrayMetadata.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/GenericMethod.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericContextHash.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericMethodCompare.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppTypeCompare.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/76gr837ti0qe2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericClassCompare.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericClassHash.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericInstCompare.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericInstHash.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppTypeHash.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/6usqdvmaejce0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/ThreadPoolMonitorThread.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/ThreadPoolWorkerThread.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/threadpool-ms-io-poll.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/threadpool-ms-io.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/threadpool-ms.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/g6xoewcrxy3n0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Android/ConsoleExtension.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Android/Initialize.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Android/Locale.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Android/StackTrace.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/l1ug61lqjp1t0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/CultureInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Error.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/File.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Locale.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/l1ug61lqjp1t1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Allocator.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Console.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Directory.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Environment.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Path.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Socket.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Time.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/x42fpp6sqz460.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_errno.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_io.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_networking.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_random.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_sizecheck.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_time.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_uid.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_unused.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/sjqt6133sov50.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/CrashHelpers.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Error.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Event.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/FastReaderReaderWriterLock.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/LibraryLoader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Messages.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Semaphore.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/sjqt6133sov51.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ConditionVariable.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Image.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Mutex.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Path.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/ReaderWriterLock.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Socket.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/StackTrace.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/s18m0cbbgajb0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/BrokeredFileSystem.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Initialize.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/WaitObject.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/s18m0cbbgajb1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Assert.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/CpuInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Debug.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Handle.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/LibraryLoader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/MemoryMappedFile.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/SystemCertificates.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Thread.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/WindowsRuntime.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/s18m0cbbgajb2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/COM.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/CrashHelpers.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Environment.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/File.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/MarshalStringAlloc.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/SocketBridge.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/SocketImpl.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/doyd24wbmtgr0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/Image.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/Process.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/SystemCertificates.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ola30ut34vlt0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/CrashHelpers.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Error.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Locale.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/PosixHelpers.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Thread.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/ThreadImpl.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ola30ut34vlt1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Directory.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Encoding.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/FileSystemWatcher.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/MarshalAlloc.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/SocketImpl.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/SystemCertificates.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ola30ut34vlt2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/CpuInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Cryptography.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/File.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/LastError.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/LibraryLoader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/MemoryMappedFile.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ola30ut34vlt3.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/ConditionVariableImpl.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Console.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Environment.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Image.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Memory.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/NativeMethods.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Path.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Process.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/StackTrace.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Time.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/TimeZone.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ghxaqqo6lfhv0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Assert.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/CrashHelpers.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/File.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/LibraryLoader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/MarshalStringAlloc.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ghxaqqo6lfhv1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Console.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Encoding.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Image.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Locale.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Path.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ghxaqqo6lfhv2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/COM.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Cryptography.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Debug.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Directory.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/DllMain.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/FileSystemWatcher.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Initialize.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/MemoryMappedFile.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/NativeMethods.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Process.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/SystemCertificates.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Thread.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/WindowsHelpers.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ghxaqqo6lfhv3.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/MarshalAlloc.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Memory.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/SocketImpl.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/StackTrace.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/ThreadImpl.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/WindowsRuntime.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ghxaqqo6lfhv4.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/ConditionVariableImpl.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/CpuInfo.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Environment.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/LastError.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/SynchronizationContext.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Time.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/TimeZone.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/faczsiuzf9co0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Cryptography.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/File.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Initialize.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Locale.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Win32ApiSharedEmulation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/faczsiuzf9co1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/BrokeredFileSystem.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Environment.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/MarshalAlloc.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Process.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Win32ApiWinRTEmulation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hceogpz8hlpo0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/Output.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/Runtime.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/mono-structs.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/sha1.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hceogpz8hlpo1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/Exception.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/Il2CppError.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/Logging.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/Memory.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryMappedFile.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryPool.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryRead.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hceogpz8hlpo2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/DirectoryUtils.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/Environment.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/MarshalingUtils.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryPoolAddressSanitizer.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/PathUtils.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/utils/StringUtils.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rdpw1q15xztr0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/BlobReader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/DebugSymbolReader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/Debugger.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/Finally.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/NativeSymbol.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/VmStringUtils.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/VmThreadUtils.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/210eokv93sti0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/icalls/mscorlib/System/Math.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/icalls/mscorlib/System/MathF.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ndmn3k7vl4l20.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/ClassInlines.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/ComObjectBase.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Module.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Path.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/String.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/VisualizerHelpers.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/WindowsRuntime.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ndmn3k7vl4l21.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Array.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Assembly.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/MarshalAlloc.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Object.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/PlatformInvoke.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Reflection.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/WaitHandle.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/WeakReference.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ndmn3k7vl4l22.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/COM.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/COMEntryPoints.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Enum.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Exception.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/InternalCalls.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Liveness.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/MetadataAlloc.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Profiler.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/RCW.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ndmn3k7vl4l23.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/AndroidRuntime.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/CCW.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/ClassLibraryPAL.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Domain.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/GlobalMetadata.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/LastError.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/MemoryInformation.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Method.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Monitor.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Random.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/ScopedThreadAttacher.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ndmn3k7vl4l24.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/AssemblyName.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/CCWBase.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/GenericClass.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/GenericContainer.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Image.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Parameter.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Property.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Type.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ndmn3k7vl4l25.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Field.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Il2CppHStringReference.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/MetadataLoader.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Runtime.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/StackTrace.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/ThreadPoolMs.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ndmn3k7vl4l26.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Class.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/Event.cpp"
+#include "/Users/sam/Applications/2022.3.44f1/Unity.app/Contents/il2cpp/libil2cpp/vm/MetadataCache.cpp"
+    
+
+Payload for "WriteText Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "WriteText Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info"
+
+{"WebGLPlayerBuildProgram.FrameworkAssembler+Data":{"threadsSupport":false,"source":"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js","jsprePlugins":[]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"WebGLPlayerBuildProgram.FrameworkAssembler","methodName":"Run","assemblyLocation":"/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe","targets":["Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"],"inputs":["Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
+
+{"System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]":{"Library/PlayerDataCache/WebGL/Data/data.unity3d":"data.unity3d","Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json":"RuntimeInitializeOnLoads.json","Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json":"ScriptingAssemblies.json","Library/PlayerDataCache/WebGL/Data/sharedassets0.resource":"sharedassets0.resource","Library/Bee/artifacts/WebGL/boot.config":"boot.config","/Users/sam/Downloads/Sam S5 2/Library/Bee/artifacts/WebGL/il2cppOutput/data/Metadata/global-metadata.dat":"Il2CppData/Metadata/global-metadata.dat","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/BuildTools/data/unity_default_resources":"Resources/unity_default_resources","Temp/StagingArea/Data/Resources/unity_builtin_extra":"Data/Resources/unity_builtin_extra"},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"WebGLPlayerBuildProgram.DataAssembler","methodName":"Run","assemblyLocation":"/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe","targets":["Library/Bee/artifacts/WebGL/webgl.data"],"inputs":["Library/PlayerDataCache/WebGL/Data/data.unity3d","Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json","Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json","Library/PlayerDataCache/WebGL/Data/sharedassets0.resource","Library/Bee/artifacts/WebGL/boot.config","/Users/sam/Downloads/Sam S5 2/Library/Bee/artifacts/WebGL/il2cppOutput/data/Metadata/global-metadata.dat","/Users/sam/Applications/2022.3.44f1/PlaybackEngines/WebGLSupport/BuildTools/data/unity_default_resources","Temp/StagingArea/Data/Resources/unity_builtin_extra"],"targetDirectories":[]}}    
+
