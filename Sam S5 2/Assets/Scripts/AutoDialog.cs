@@ -18,7 +18,10 @@ public class AutoDialog : MonoBehaviour
     private float countdownTimer;
     public TMP_Text textBox;
     public GameObject uiText;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 66655d772cb97ce2c95e63fe8e97b151157e0678
    
 
     private void OnEnable()
@@ -39,8 +42,12 @@ public class AutoDialog : MonoBehaviour
     }
     void Update()
     {
+<<<<<<< HEAD
 
        
+=======
+        Countdown = countdownTimer;
+>>>>>>> 66655d772cb97ce2c95e63fe8e97b151157e0678
         if (IsPlayerInRange && !isDialogueActive)
         {
             StartDialogue();
@@ -76,7 +83,12 @@ public class AutoDialog : MonoBehaviour
 
     void DisplayNextSentence()
     {
+<<<<<<< HEAD
         
+=======
+
+        print(".");
+>>>>>>> 66655d772cb97ce2c95e63fe8e97b151157e0678
         if (dialogueIndex < dialogues.Length)
         {
             textBox.text = dialogues[dialogueIndex];
@@ -95,6 +107,10 @@ public class AutoDialog : MonoBehaviour
         dialoguePanel.SetActive(false);
         IsPlayerInRange = false;
         uiText.SetActive(false);
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 66655d772cb97ce2c95e63fe8e97b151157e0678
         doneTalking?.Invoke();
     }
 
