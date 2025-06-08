@@ -1,50 +1,32 @@
-name: Build and Deploy Unity WebGL
+name: Deploy Unity WebGL
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          lfs: true
-
-      - name: Cache Unity Library
-        uses: actions/cache@v3
-        with:
-          path: Library
-          key: Library-${{ hashFiles('Assets/**', 'Packages/**') }}
-          
-      - name: Unity Activate
-  # You may pin to the exact commit or the version.
-  # uses: game-ci/unity-activate@33cd3ea96f11f3a1ddcf8fa9d8d265d5ea81e240
-        uses: game-ci/unity-activate@v2.0.0
-        with:
-    # Version of unity to use for building the project.
-          unityVersion: 2022.3.44f1
-           
+    - uses: actions/checkout@v4
+      with:
+        lfs: true
     
-      - name: Build Unity Project
-        uses: game-ci/unity-builder@v4
-        env:
-          github_token: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          projectPath: "./Sam S5 2"
-          targetPlatform: WebGL
-          buildName: Game
-
-      
-          
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/WebGL/Game
+    - uses: actions/cache@v3
+      with:
+        path: Library
+        key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+    
+    - uses: game-ci/unity-builder@v4
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+        UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+      with:
+        projectPath: "./Sam S5 2"
+        targetPlatform: WebGL
+    
+    - uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build/WebGL
