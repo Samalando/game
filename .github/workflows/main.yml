@@ -26,8 +26,9 @@ jobs:
       - name: Build Unity Project
         uses: game-ci/unity-builder@v4
         env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          #UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           projectPath: "./Sam S5 2"
           targetPlatform: WebGL
